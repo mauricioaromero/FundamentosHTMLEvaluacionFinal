@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width;user-scalable=no">
+        <meta name="author" content="Mauricio Romero">
+        <meta name="description" content="Curriculum Vitae de Romero Mauricio">
+		<title>Curriculum Vitae</title>
+	</head>
+	<body>
+		<header>
+			<img src="imagenes/logo.svg" alt="Logo" title="Logo" width="150px">
+			<h1>Curriculum Vitae</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="educacion.html">Educacion</a></li>
+				<li><a href="experiencia.html">Experiencia</a></li>
+			</ul>
+		</nav>
+		<h2>Datos Personales</h2>
+		<ul>
+			<li><strong>Nombre y Apellido: </strong>Mauricio Romero</li>
+			<li><strong>Fecha de Nacimiento: </strong>31/08/1981</li>
+			<li><strong>Lugar de Nacimiento: </strong>Cordoba Capital</li>
+		</ul>
+		<h2>Educación</h2>
+		<table border="1" >
+			<tr>
+				<td>Año</td>
+				<td>Institucion</td>
+				<td>Lugar</td>
+				<td>Culmino?</td>
+			</tr>
+			<tr>
+				<td>1993</td>
+				<td>Primario</td>
+				<td>Cordoba Capital</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>1999</td>
+				<td>Secundario</td>
+				<td>Cordoba Capital</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2001</td>
+				<td>Tecnico PC</td>
+				<td>Cordoba Capital</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2005</td>
+				<td>Tecnico Superio en Programacion</td>
+				<td>Interior</td>
+				<td>Tesis Pendiente</td>
+			</tr>
+		</table>
+		<form autocomplete="on" name="Estudios">
+			<h3>Agregar Estudios</h3>
+			<label for="fecha"><strong>Año:</strong> </label>
+			<select name="fecha" id="fecha">
+				<option value="1990">1990</option>
+				<option value="1991">1991</option>
+				<option value="1992">1992</option>
+				<option value="1993">1993</option>
+				<option value="1994">1994</option>
+			</select> <br> <br>
+			<label for="institucion"><strong>Institucion:</strong> </label>
+			<input type="text" name="institucion" placeholder="Instituto Mariano Moreno" required > <br> <br>
+			<label for="lugar"><strong>Lugar:</strong> </label>
+			<textarea name="lugar" cols="20" rows="4"></textarea> <br> <br>
+			<label for="culmino"><strong>¿Culminó?:</strong> </label>
+			<input type="radio" name="culmino">Si</input> <input type="radio" name="culmino">No</input> <br> <br>
+			<input type="submit" name="enviar" id="enviar" value="Enviar" ></input>
+		</form>
+		<br>
+		<footer>
+			Derechos reservados<br><br>
+			E-mail: <a href="mailto:mauricio.a.romero@gmail.com?subject=Contacto desde Pagina Web">mauricio.a.romero@gmail.com</a> | Telefono: 0351-155372635 | <br>
+			Twitter: <a href="https://www.twitter.com/mauricioaromero" target="_blank">@MauricioARomero</a> | Facebook: <a href="https://www.facebook.com/mauricioantonioromero" target="_blank">@MauricioAntonioRomero</a>  <br>
+			Cordoba ~ Capital ~ Argentina
+		</footer>
+	</body>
+</html>
